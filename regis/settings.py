@@ -54,7 +54,7 @@ ROOT_URLCONF = 'regis.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -72,8 +72,8 @@ WSGI_APPLICATION = 'regis.wsgi.application'
 # EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'avimarion719@gmail.com'
-EMAIL_HOST_PASSWORD = 'V@!ovaio007'
+EMAIL_HOST_USER = 'hidden@gmail.com'
+EMAIL_HOST_PASSWORD = 'hidden'
 EMAIL_PORT = 587
 
 # Database
